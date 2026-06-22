@@ -1,0 +1,19 @@
+{
+  "model": "TabNet (n_d=32, n_steps=4)",
+  "accuracy": 0.537037,
+  "macro_f1": 0.339363,
+  "weighted_f1": 0.599756,
+  "f1_slight": 0.715115,
+  "f1_serious": 0.230779,
+  "f1_fatal": 0.072193,
+  "prec_slight": 0.825309,
+  "prec_serious": 0.273214,
+  "prec_fatal": 0.038209,
+  "recall_slight": 0.630881,
+  "recall_serious": 0.199754,
+  "recall_fatal": 0.65287,
+  "roc_auc_macro": 0.6391226214811806,
+  "training_time_s": 301.92,
+  "experiment_id": "E2b",
+  "notes": "Trained on 200K subsample due to time constraints"
+}

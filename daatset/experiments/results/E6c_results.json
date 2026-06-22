@@ -1,0 +1,18 @@
+{
+  "model": "XGBoost + KMeans + Dist-to-Centre",
+  "accuracy": 0.769144,
+  "macro_f1": 0.314848,
+  "weighted_f1": 0.682776,
+  "f1_slight": 0.869038,
+  "f1_serious": 0.075505,
+  "f1_fatal": 0.0,
+  "prec_slight": 0.773437,
+  "prec_serious": 0.521866,
+  "prec_fatal": 0.0,
+  "recall_slight": 0.991605,
+  "recall_serious": 0.040697,
+  "recall_fatal": 0.0,
+  "roc_auc_macro": 0.724436221812892,
+  "training_time_s": 4.87,
+  "experiment_id": "E6c"
+}

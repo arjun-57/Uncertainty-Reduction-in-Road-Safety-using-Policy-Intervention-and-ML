@@ -1,0 +1,22 @@
+{
+  "model": "MC Dropout BNN (T=50)",
+  "accuracy": 0.547824,
+  "macro_f1": 0.37382,
+  "weighted_f1": 0.607304,
+  "f1_slight": 0.692843,
+  "f1_serious": 0.342566,
+  "f1_fatal": 0.08605,
+  "prec_slight": 0.847348,
+  "prec_serious": 0.290408,
+  "prec_fatal": 0.047136,
+  "recall_slight": 0.585993,
+  "recall_serious": 0.417561,
+  "recall_fatal": 0.493324,
+  "roc_auc_macro": 0.6709049081036479,
+  "training_time_s": 9.58,
+  "experiment_id": "E3b",
+  "epistemic_mean": 0.010069247335195541,
+  "epistemic_std": 0.008860280737280846,
+  "aleatoric_mean": 0.4516483545303345,
+  "notes": "Phase 5 BNN reloaded"
+}

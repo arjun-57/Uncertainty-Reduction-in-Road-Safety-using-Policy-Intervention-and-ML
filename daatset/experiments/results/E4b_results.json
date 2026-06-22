@@ -1,0 +1,18 @@
+{
+  "model": "Class-Weighted XGBoost (no SMOTE)",
+  "accuracy": 0.540395,
+  "macro_f1": 0.3684,
+  "weighted_f1": 0.607086,
+  "f1_slight": 0.698857,
+  "f1_serious": 0.320475,
+  "f1_fatal": 0.085869,
+  "prec_slight": 0.850582,
+  "prec_serious": 0.296761,
+  "prec_fatal": 0.04599,
+  "recall_slight": 0.593067,
+  "recall_serious": 0.348308,
+  "recall_fatal": 0.646195,
+  "roc_auc_macro": 0.6896956022057797,
+  "training_time_s": 5.59,
+  "experiment_id": "E4b"
+}

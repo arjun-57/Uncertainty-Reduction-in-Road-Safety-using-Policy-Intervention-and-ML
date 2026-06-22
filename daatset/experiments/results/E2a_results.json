@@ -1,0 +1,18 @@
+{
+  "model": "ResidualMLP (BN+Dropout+FocalLoss)",
+  "accuracy": 0.605977,
+  "macro_f1": 0.38609,
+  "weighted_f1": 0.635983,
+  "f1_slight": 0.716294,
+  "f1_serious": 0.394153,
+  "f1_fatal": 0.047822,
+  "prec_slight": 0.837008,
+  "prec_serious": 0.300012,
+  "prec_fatal": 0.066351,
+  "recall_slight": 0.62601,
+  "recall_serious": 0.574391,
+  "recall_fatal": 0.037383,
+  "roc_auc_macro": 0.6560873499042674,
+  "training_time_s": 721.93,
+  "experiment_id": "E2a"
+}

@@ -1,0 +1,18 @@
+{
+  "model": "XGBoost + Grid Cell (0.1\u00b0 resolution)",
+  "accuracy": 0.769323,
+  "macro_f1": 0.315992,
+  "weighted_f1": 0.683329,
+  "f1_slight": 0.869174,
+  "f1_serious": 0.077467,
+  "f1_fatal": 0.001333,
+  "prec_slight": 0.773716,
+  "prec_serious": 0.522727,
+  "prec_fatal": 0.5,
+  "recall_slight": 0.991502,
+  "recall_serious": 0.041833,
+  "recall_fatal": 0.000668,
+  "roc_auc_macro": 0.7242975547697523,
+  "training_time_s": 4.84,
+  "experiment_id": "E6d"
+}

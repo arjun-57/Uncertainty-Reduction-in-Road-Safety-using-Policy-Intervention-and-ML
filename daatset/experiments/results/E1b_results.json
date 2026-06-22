@@ -1,0 +1,18 @@
+{
+  "model": "XGBoost + Focal-like (gamma=1.5)",
+  "accuracy": 0.544626,
+  "macro_f1": 0.371029,
+  "weighted_f1": 0.609934,
+  "f1_slight": 0.701487,
+  "f1_serious": 0.32417,
+  "f1_fatal": 0.087428,
+  "prec_slight": 0.851115,
+  "prec_serious": 0.297538,
+  "prec_fatal": 0.046947,
+  "recall_slight": 0.596603,
+  "recall_serious": 0.356039,
+  "recall_fatal": 0.634846,
+  "roc_auc_macro": 0.6919318289337458,
+  "training_time_s": 12.77,
+  "experiment_id": "E1b"
+}

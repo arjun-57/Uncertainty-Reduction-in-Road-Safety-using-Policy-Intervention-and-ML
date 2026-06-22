@@ -1,0 +1,18 @@
+{
+  "model": "Focal Loss MLP (no SMOTE, gamma=2)",
+  "accuracy": 0.167915,
+  "macro_f1": 0.137758,
+  "weighted_f1": 0.093824,
+  "f1_slight": 0.035722,
+  "f1_serious": 0.298786,
+  "f1_fatal": 0.078765,
+  "prec_slight": 0.955133,
+  "prec_serious": 0.193207,
+  "prec_fatal": 0.041818,
+  "recall_slight": 0.018201,
+  "recall_serious": 0.658785,
+  "recall_fatal": 0.676235,
+  "roc_auc_macro": 0.6334434764703544,
+  "training_time_s": 84.68,
+  "experiment_id": "E4c"
+}

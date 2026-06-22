@@ -1,0 +1,18 @@
+{
+  "model": "XGBoost + Class Weights",
+  "accuracy": 0.545073,
+  "macro_f1": 0.371884,
+  "weighted_f1": 0.610365,
+  "f1_slight": 0.701436,
+  "f1_serious": 0.326292,
+  "f1_fatal": 0.087923,
+  "prec_slight": 0.851914,
+  "prec_serious": 0.298611,
+  "prec_fatal": 0.047225,
+  "recall_slight": 0.596137,
+  "recall_serious": 0.359631,
+  "recall_fatal": 0.636182,
+  "roc_auc_macro": 0.6922335543372764,
+  "training_time_s": 16.31,
+  "experiment_id": "E1a"
+}

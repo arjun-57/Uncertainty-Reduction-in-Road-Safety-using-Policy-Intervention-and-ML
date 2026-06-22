@@ -1,0 +1,19 @@
+{
+  "model": "SMOTE + XGBoost (baseline)",
+  "accuracy": 0.540683,
+  "macro_f1": 0.368186,
+  "weighted_f1": 0.607144,
+  "f1_slight": 0.699134,
+  "f1_serious": 0.319781,
+  "f1_fatal": 0.085643,
+  "prec_slight": 0.850045,
+  "prec_serious": 0.296065,
+  "prec_fatal": 0.045884,
+  "recall_slight": 0.593727,
+  "recall_serious": 0.347626,
+  "recall_fatal": 0.641522,
+  "roc_auc_macro": 0.689187050726274,
+  "training_time_s": 12.95,
+  "experiment_id": "E4a",
+  "notes": "Pre-balanced 926K from Phase 3"
+}

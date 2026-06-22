@@ -1,0 +1,18 @@
+{
+  "model": "BalancedRandomForest (100 trees)",
+  "accuracy": 0.566417,
+  "macro_f1": 0.383499,
+  "weighted_f1": 0.618232,
+  "f1_slight": 0.706837,
+  "f1_serious": 0.342446,
+  "f1_fatal": 0.101214,
+  "prec_slight": 0.84052,
+  "prec_serious": 0.289169,
+  "prec_fatal": 0.056553,
+  "recall_slight": 0.609843,
+  "recall_serious": 0.419789,
+  "recall_fatal": 0.481308,
+  "roc_auc_macro": 0.6791671718455771,
+  "training_time_s": 5.07,
+  "experiment_id": "E4d"
+}

@@ -1,0 +1,18 @@
+{
+  "model": "LightGBM DART",
+  "accuracy": 0.533621,
+  "macro_f1": 0.359731,
+  "weighted_f1": 0.603026,
+  "f1_slight": 0.700372,
+  "f1_serious": 0.296835,
+  "f1_fatal": 0.081987,
+  "prec_slight": 0.847629,
+  "prec_serious": 0.292123,
+  "prec_fatal": 0.043592,
+  "recall_slight": 0.596707,
+  "recall_serious": 0.301701,
+  "recall_fatal": 0.687583,
+  "roc_auc_macro": 0.680787465248275,
+  "training_time_s": 26.38,
+  "experiment_id": "E1d"
+}

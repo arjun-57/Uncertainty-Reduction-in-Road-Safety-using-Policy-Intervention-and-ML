@@ -1,0 +1,18 @@
+{
+  "model": "CatBoost Ordered + Native Cats",
+  "accuracy": 0.534097,
+  "macro_f1": 0.36267,
+  "weighted_f1": 0.60249,
+  "f1_slight": 0.696988,
+  "f1_serious": 0.306052,
+  "f1_fatal": 0.084972,
+  "prec_slight": 0.849685,
+  "prec_serious": 0.288703,
+  "prec_fatal": 0.045352,
+  "recall_slight": 0.590813,
+  "recall_serious": 0.325618,
+  "recall_fatal": 0.67223,
+  "roc_auc_macro": 0.6836137031668458,
+  "training_time_s": 177.57,
+  "experiment_id": "E1e"
+}

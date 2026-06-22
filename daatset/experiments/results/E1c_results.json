@@ -1,0 +1,18 @@
+{
+  "model": "LightGBM GOSS",
+  "accuracy": 0.539719,
+  "macro_f1": 0.369466,
+  "weighted_f1": 0.60594,
+  "f1_slight": 0.696549,
+  "f1_serious": 0.323134,
+  "f1_fatal": 0.088715,
+  "prec_slight": 0.851853,
+  "prec_serious": 0.293971,
+  "prec_fatal": 0.047605,
+  "recall_slight": 0.589141,
+  "recall_serious": 0.358721,
+  "recall_fatal": 0.6502,
+  "roc_auc_macro": 0.6928259112355587,
+  "training_time_s": 8.36,
+  "experiment_id": "E1c"
+}

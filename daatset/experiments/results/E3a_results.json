@@ -1,0 +1,21 @@
+{
+  "model": "Deep Ensemble (5 MLPs)",
+  "accuracy": 0.530472,
+  "macro_f1": 0.362681,
+  "weighted_f1": 0.597967,
+  "f1_slight": 0.688204,
+  "f1_serious": 0.316271,
+  "f1_fatal": 0.083567,
+  "prec_slight": 0.848823,
+  "prec_serious": 0.28499,
+  "prec_fatal": 0.044816,
+  "recall_slight": 0.5787,
+  "recall_serious": 0.355266,
+  "recall_fatal": 0.61749,
+  "roc_auc_macro": 0.6709102974642862,
+  "training_time_s": 588.46,
+  "experiment_id": "E3a",
+  "epistemic_mean": 0.0017400234937667847,
+  "epistemic_std": 0.0020919807720929384,
+  "aleatoric_mean": 0.4717788100242615
+}

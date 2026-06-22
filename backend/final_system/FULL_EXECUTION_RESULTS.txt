@@ -1,0 +1,79 @@
+======================================================================
+  AI RISK INTELLIGENCE SYSTEM — FULL METRICS EVALUATION
+======================================================================
+
+[1] Loading Test Data...
+
+--------------------------------------------------
+STAGE 2A: BINARY SEVERITY GATE (Slight vs Severe)
+--------------------------------------------------
+   Accuracy: 62.90%
+   Macro F1: 0.5819
+
+Classification Report:
+              precision    recall  f1-score   support
+
+  Slight (0)       0.85      0.63      0.72     77192
+  Severe (1)       0.34      0.63      0.44     23490
+
+    accuracy                           0.63    100682
+   macro avg       0.59      0.63      0.58    100682
+weighted avg       0.73      0.63      0.66    100682
+
+--------------------------------------------------
+STAGE 2B: FINE-GRAINED CLASSIFIER (Serious vs Fatal)
+--------------------------------------------------
+   Balanced RF Accuracy: 93.16%
+   Balanced RF F1-Fatal: 0.0519
+
+   Balanced RF Classification Report:
+              precision    recall  f1-score   support
+
+ Serious (0)       0.94      0.99      0.96     21992
+   Fatal (1)       0.22      0.03      0.05      1498
+
+    accuracy                           0.93     23490
+   macro avg       0.58      0.51      0.51     23490
+weighted avg       0.89      0.93      0.91     23490
+
+
+   Focal MLP Accuracy: 59.02%
+   Focal MLP F1-Fatal: 0.1754
+
+   Focal MLP Classification Report:
+              precision    recall  f1-score   support
+
+ Serious (0)       0.96      0.58      0.73     21992
+   Fatal (1)       0.10      0.68      0.18      1498
+
+    accuracy                           0.59     23490
+   macro avg       0.53      0.63      0.45     23490
+weighted avg       0.91      0.59      0.69     23490
+
+--------------------------------------------------
+STAGE 3: EPISTEMIC UNCERTAINTY (Deep Ensemble)
+--------------------------------------------------
+   Average Epistemic Uncertainty (When Model is Correct):   0.000088
+   Average Epistemic Uncertainty (When Model is Incorrect): 0.000108
+   Ratio (Incorrect/Correct): 1.23x (Higher is better)
+
+--------------------------------------------------
+STAGE 4: INTELLIGENT FUSION ENGINE
+--------------------------------------------------
+   Fused Accuracy:    55.22%
+   Fused Macro F1:    0.3623
+   F1-Slight:         0.7221
+   F1-Serious:        0.2897
+   F1-Fatal:          0.0750
+
+Core Fusion Classification Report:
+              precision    recall  f1-score   support
+
+      Slight       0.85      0.63      0.72     77192
+     Serious       0.30      0.28      0.29     21992
+       Fatal       0.04      0.62      0.07      1498
+
+    accuracy                           0.55    100682
+   macro avg       0.40      0.51      0.36    100682
+weighted avg       0.72      0.55      0.62    100682
+

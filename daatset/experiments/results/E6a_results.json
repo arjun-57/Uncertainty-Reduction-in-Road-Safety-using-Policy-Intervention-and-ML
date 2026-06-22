@@ -1,0 +1,18 @@
+{
+  "model": "XGBoost (raw lat/lon baseline)",
+  "accuracy": 0.769283,
+  "macro_f1": 0.31512,
+  "weighted_f1": 0.682991,
+  "f1_slight": 0.869105,
+  "f1_serious": 0.076255,
+  "f1_fatal": 0.0,
+  "prec_slight": 0.773503,
+  "prec_serious": 0.526193,
+  "prec_fatal": 0.0,
+  "recall_slight": 0.99167,
+  "recall_serious": 0.041106,
+  "recall_fatal": 0.0,
+  "roc_auc_macro": 0.7242401838854379,
+  "training_time_s": 7.42,
+  "experiment_id": "E6a"
+}

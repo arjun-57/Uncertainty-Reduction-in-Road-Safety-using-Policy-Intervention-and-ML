@@ -1,0 +1,18 @@
+{
+  "model": "Soft Voting 4-model (XGB+LGB+CB+MLP)",
+  "accuracy": 0.541318,
+  "macro_f1": 0.366975,
+  "weighted_f1": 0.607971,
+  "f1_slight": 0.702254,
+  "f1_serious": 0.312588,
+  "f1_fatal": 0.086082,
+  "prec_slight": 0.85032,
+  "prec_serious": 0.293662,
+  "prec_fatal": 0.046059,
+  "recall_slight": 0.598106,
+  "recall_serious": 0.334121,
+  "recall_fatal": 0.656876,
+  "roc_auc_macro": 0.6869049761234339,
+  "training_time_s": 0.15,
+  "experiment_id": "E5b"
+}
